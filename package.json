@@ -2,10 +2,7 @@
 	"name": "marionette-cli",
 	"version": "0.0.1",
 	"description": "CLI for marionette",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"author": "denar90",
+	"author": "Artem Denysov",
 	"license": "MIT",
 	"bin": {
 		"mt": "./bin/mt.js"
