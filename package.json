@@ -2,7 +2,18 @@
 	"name": "marionette-cli",
 	"version": "0.0.1",
 	"description": "CLI for marionette",
-	"author": "Artem Denysov",
+	"author": "Denysov Artem",
+	"directory": "marionette-cli",
+	"keywords": [
+		"backbone",
+		"marionette",
+		"cli",
+		"requirejs",
+		"javacript",
+		"front-end",
+		"web",
+		"development"
+	],
 	"license": "MIT",
 	"bin": {
 		"mt": "./bin/mt.js"
