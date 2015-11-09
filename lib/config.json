@@ -15,5 +15,20 @@
         "layout.js",
         "collection.js",
         "model.js"
+    ],
+    "aliases": {
+        "n": "new",
+        "s": "set",
+        "g": "generate"
+    },
+    "generateOptions": [
+        "layout",
+        "collection",
+        "model",
+        "router",
+        "object",
+        "itemView",
+        "compositeView",
+        "collectionView"
     ]
 }
