@@ -1,0 +1,14 @@
+{
+	"name": "marionette-cli",
+	"version": "0.0.1",
+	"description": "CLI for marionette",
+	"author": "Artem Denysov",
+	"license": "MIT",
+	"bin": {
+		"mt": "./bin/mt.js"
+	},
+	"dependencies": {
+		"commander": "~2.8.1",
+		"fs-extra": "~0.26.2"
+	}
+}
