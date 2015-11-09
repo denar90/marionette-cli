@@ -2,6 +2,10 @@
 
 Marionette CLI
 
+##Install
+
+Run `npm install -g marionette-cli` or add dependency in your `package.json` file and run `npm install`
+
 ##Features
 * Generate app skeleton
 * Generate backbone/marionette files
