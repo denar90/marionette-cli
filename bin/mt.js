@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-const path = require('path');
-const fs = require('fs');
+var path = require('path');
+var fs = require('fs');
 try {
-	const localCli = path.join(path.resolve('.'), 'node_modules', 'marionette-cli', 'lib', 'cli');
+	var localCli = path.join(path.resolve('.'), 'node_modules', 'marionette-cli', 'lib', 'cli');
 	require(localCli).run();
 } catch (e) {
-	const globalCli = path.join(path.dirname(fs.realpathSync(__filename)), '..', 'lib', 'cli');
+	var globalCli = path.join(path.dirname(fs.realpathSync(__filename)), '..', 'lib', 'cli');
 	require(globalCli).run();
 }

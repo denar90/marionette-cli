@@ -1,13 +1,10 @@
 {
-    "moduleType": "rjs",
+    "moduleType": "cjs",
     "moduleTypes": [
         "rjs",
-        "cjs",
-        "umd",
-        "b"
+        "cjs"
     ],
     "appFiles": [
-        "config.js",
         "main.js",
         "app.js",
         "controller.js",
