@@ -1,6 +1,6 @@
 #Marionette CLI
 
-Marionette CLI
+Marionette CLI is the command line utility that provides RequreJS/CommonJS app structure.
 
 ##Install
 
@@ -9,7 +9,7 @@ Run `npm install -g marionette-cli` or add dependency in your `package.json` fil
 ##Features
 * Generate app skeleton
 * Generate backbone/marionette files
-* Support different module types (WIP, now support only RequreJS)
+* Support different module types (RequreJS, CommonJS)
 
 ##Commands
 ###Set
