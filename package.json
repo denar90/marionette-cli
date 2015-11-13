@@ -1,6 +1,6 @@
 {
 	"name": "marionette-cli",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "CLI for marionette",
 	"author": "Denysov Artem",
 	"directory": "marionette-cli",
