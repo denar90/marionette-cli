@@ -25,6 +25,7 @@
         "router",
         "object",
         "itemView",
+        "behavior",
         "compositeView",
         "collectionView"
     ]
