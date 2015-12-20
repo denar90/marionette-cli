@@ -29,13 +29,14 @@ Usage: new [options]
 
 Example: `mt new` <br />
 Example: `mt n`
+Example: `mt n folderName` - will genarate app in `folderName` folder<br />
 
 Will generate app with basic files: `config.js, main.js, app.js, controller.js, router.js, layout.js, collection.js, model.js`
 
 
 ###Generate
 ```
-Usage: generate [options]
+Usage: generate [options] [folder]
 Generate files for marionette. Short - g
 ```
 
@@ -51,8 +52,11 @@ Options:
     --compositeView [name]   Composite view
 ```
 
-Example: `mt generate -l` - will create marionette layout file layout.js <br />
+Example: `mt generate -l` - will create marionette layout file `layout.js` <br />
 Example: `mt g -l` - the same as above
 
-Example: `mt generate -l myName` - will create marionette layout file myName.js <br />
+Example: `mt generate -l myName` - will create marionette layout file `myName.js` <br />
 Example: `mt g -l` - the same as above
+
+Example: `mt generate -l myName myFolder` - will create marionette layout file `myName.js` in folder `myFolder` <br />
+Example: `mt g -l myName myFolder` - the same as above
