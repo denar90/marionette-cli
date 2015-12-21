@@ -1,9 +1,13 @@
 {
 	"name": "marionette-cli",
-	"version": "0.0.4",
+	"version": "0.1.0",
 	"description": "CLI for marionette",
 	"author": "Denysov Artem",
 	"directory": "marionette-cli",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/denar90/marionette-cli.git"
+	},
 	"keywords": [
 		"backbone",
 		"marionette",
@@ -20,6 +24,8 @@
 	},
 	"dependencies": {
 		"commander": "~2.8.1",
-		"fs-extra": "~0.26.2"
+		"fs-extra": "~0.26.2",
+		"rigger": "~0.5.10",
+		"mkdirp": "~0.5.1"
 	}
 }
