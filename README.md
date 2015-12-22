@@ -28,7 +28,7 @@ Usage: new [options]
 ```
 
 Example: `mt new` <br />
-Example: `mt n`
+Example: `mt n` <br />
 Example: `mt n folderName` - will genarate app in `folderName` folder<br />
 
 Will generate app with basic files: `config.js, main.js, app.js, controller.js, router.js, layout.js, collection.js, model.js`
