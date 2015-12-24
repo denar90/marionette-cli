@@ -1,18 +1,15 @@
 {
-    "moduleType": "rjs",
+    "moduleType": "es6",
     "moduleTypes": [
         "rjs",
-        "cjs"
+        "cjs",
+        "es6"
     ],
-    "appFiles": [
-        "main.js",
-        "app.js",
-        "controller.js",
-        "router.js",
-        "layout.js",
-        "collection.js",
-        "model.js"
-    ],
+    "apps": {
+        "rjs": "https://github.com/davidsulc/structuring-backbone-with-requirejs-and-marionette",
+        "cjs": "https://github.com/samccone/marionette-browserify",
+        "es6": "https://github.com/abiee/es6-marionette"
+    },
     "aliases": {
         "n": "new",
         "s": "set",

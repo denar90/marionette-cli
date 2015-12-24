@@ -9,7 +9,7 @@ Run `npm install -g marionette-cli` or add dependency in your `package.json` fil
 ##Features
 * Generate app skeleton
 * Generate backbone/marionette files
-* Support different module types (RequireJS, CommonJS)
+* Support different module types (RequireJS, CommonJS, ES6)
 
 ##Commands
 ###Set
@@ -31,8 +31,12 @@ Example: `mt new` <br />
 Example: `mt n` <br />
 Example: `mt n folderName` - will genarate app in `folderName` folder<br />
 
-Will generate app with basic files: `config.js, main.js, app.js, controller.js, router.js, layout.js, collection.js, model.js`
+Command copying best practices (most stared examples of applications) from github.
 
+####Propjects:
+* [RequireJS](https://github.com/davidsulc/structuring-backbone-with-requirejs-and-marionette) example from David Sulc
+* [CommonJS](https://github.com/samccone/marionette-browserify) example from Sam Saccone
+* [ES6](https://github.com/abiee/es6-marionette) example from Abiee Alejandro
 
 ###Generate
 ```
