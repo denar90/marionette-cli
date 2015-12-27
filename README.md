@@ -33,7 +33,7 @@ Example: `mt n folderName` - will genarate app in `folderName` folder<br />
 
 Command copying best practices (most stared examples of applications) from github.
 
-####Propjects:
+####Projects:
 * [RequireJS](https://github.com/davidsulc/structuring-backbone-with-requirejs-and-marionette) example from David Sulc
 * [CommonJS](https://github.com/samccone/marionette-browserify) example from Sam Saccone
 * [ES6](https://github.com/abiee/es6-marionette) example from Abiee Alejandro
