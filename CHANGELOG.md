@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - es6 files generating
 - cloning best application examples
+
 ### Changed
 - skeletons generation
 
