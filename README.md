@@ -1,6 +1,6 @@
 #Marionette CLI
 
-Marionette CLI is the command line utility that provides RequireJS/CommonJS app structure.
+Marionette CLI is the command line utility that provides RequireJS/CommonJS/ES6 app structure.
 
 ##Install
 
