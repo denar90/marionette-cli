@@ -1,8 +1,8 @@
 {
 	"name": "marionette-cli",
 	"version": "0.2.0",
-	"description": "CLI for marionette",
-	"author": "Denysov Artem",
+	"description": "CLI for marionette.js",
+	"author": "denar90",
 	"directory": "marionette-cli",
 	"repository": {
 		"type": "git",
@@ -12,6 +12,7 @@
 		"backbone",
 		"marionette",
 		"cli",
+		"es6",
 		"requirejs",
 		"javacript",
 		"front-end",

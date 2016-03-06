@@ -36,7 +36,7 @@ Command copying best practices (most stared examples of applications) from githu
 ####Projects:
 * [RequireJS](https://github.com/davidsulc/structuring-backbone-with-requirejs-and-marionette) example from David Sulc
 * [CommonJS](https://github.com/samccone/marionette-browserify) example from Sam Saccone
-* [ES6](https://github.com/abiee/es6-marionette) example from Abiee Alejandro
+* [ES6](https://github.com/thejameskyle/marionette-wires) example from James Kyle
 
 ###Generate
 ```
