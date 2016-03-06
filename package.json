@@ -1,6 +1,6 @@
 {
 	"name": "marionette-cli",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "CLI for marionette.js",
 	"author": "denar90",
 	"directory": "marionette-cli",
