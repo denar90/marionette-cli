@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - support executing CLI from code
 
-## [0.2.1] - 2015-03-09
+## [0.2.2] - 2015-03-09
 ### Added
 - support global path add to
 
