@@ -64,3 +64,11 @@ Example: `mt g -l` - the same as above
 
 Example: `mt generate -l myName myFolder` - will create marionette layout file `myName.js` in folder `myFolder` <br />
 Example: `mt g -l myName myFolder` - the same as above
+
+
+###Want to run CLI from your code?
+```
+var cli = require('marionette-cli/lib/cli');
+
+cli.run(['generate', '--help']);
+```
