@@ -65,6 +65,8 @@ Example: `mt g -l` - the same as above
 Example: `mt generate -l myName myFolder` - will create marionette layout file `myName.js` in folder `myFolder` <br />
 Example: `mt g -l myName myFolder` - the same as above
 
+###Using Atom as your IDE?
+Get lasy and use [MarionetteJS CLI package for atom](https://atom.io/packages/atom-marionettejs-cli)
 
 ###Want to run CLI from your code?
 ```
