@@ -1,9 +1,9 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## [0.3.1] - 2015-03-14
+## [0.3.1] - 2015-03-17
 ### Added
-- clone shows error if something went wrong
+- handle errors in helper functions
 
 ### Changed
 - copy files
