@@ -33,6 +33,41 @@ Example: `mt n folderName` - will genarate app in `folderName` folder<br />
 
 Command copying best practices (most stared examples of applications) from github.
 
+####Generated files content
+
+* `ES6` file content:<br/>
+```javascript
+export default Marionette.LayoutView.extend({
+	//stuff
+	//Doc - http://marionettejs.com/docs/v2.4.4/marionette.layoutview.html
+});
+```
+[more](examples.md#es6)<br/>
+
+* `CommonJS` file content:<br/>
+```javascript
+"use strict";
+var LayoutView = Marionette.LayoutView.extend({
+	//stuff
+	//Doc - http://marionettejs.com/docs/v2.4.4/marionette.layoutview.html
+});
+module.exports = LayoutView;
+```
+[more](examples.md#commonjs)<br/>
+
+* `RequireJS` file content:<br/>
+```javascript
+define('layout', ['marionette'], function (Marionette) {
+	"use strict";
+	var LayoutView = Marionette.LayoutView.extend({
+		//stuff
+		//Doc - http://marionettejs.com/docs/v2.4.4/marionette.layoutview.html
+	});
+	return LayoutView;
+});
+```
+[more](examples.md#requirejs)<br/>
+
 ####Projects:
 * [RequireJS](https://github.com/davidsulc/structuring-backbone-with-requirejs-and-marionette) example from David Sulc
 * [CommonJS](https://github.com/samccone/marionette-browserify) example from Sam Saccone
