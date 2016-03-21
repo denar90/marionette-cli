@@ -42,7 +42,7 @@ export default Marionette.LayoutView.extend({
 	//Doc - http://marionettejs.com/docs/v2.4.4/marionette.layoutview.html
 });
 ```
-[more](examples.md#ES6)<br/>
+[more](examples.md#es6)<br/>
 
 * `CommonJS` file content:<br/>
 ```javascript
@@ -53,7 +53,7 @@ var LayoutView = Marionette.LayoutView.extend({
 });
 module.exports = LayoutView;
 ```
-[more](examples.md#CommonJS)<br/>
+[more](examples.md#commonjs)<br/>
 
 * `RequireJS` file content:<br/>
 ```javascript
@@ -66,7 +66,7 @@ define('layout', ['marionette'], function (Marionette) {
 	return LayoutView;
 });
 ```
-[more](examples.md#RequireJS)<br/>
+[more](examples.md#requirejs)<br/>
 
 ####Projects:
 * [RequireJS](https://github.com/davidsulc/structuring-backbone-with-requirejs-and-marionette) example from David Sulc
