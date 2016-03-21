@@ -61,7 +61,7 @@ export default Marionette.ItemView.extend({
 import ItemView from './itemView';
 
 export default Marionette.CollectionView.extend({
-	childVie: ItemView,
+	childView: ItemView,
 
 	initialize() {
 		//do stuff
@@ -75,7 +75,7 @@ export default Marionette.CollectionView.extend({
 import ItemView from './itemView';
 
 export default Marionette.CompositeView.extend({
-	childVie: ItemView,
+	childView: ItemView,
 
 	initialize() {
 		//do stuff
