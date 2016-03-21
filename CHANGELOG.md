@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.3.2] - 2015-03-21
+### Added
+- more documentation
+- fixed calling commander from code
+
 ## [0.3.1] - 2015-03-17
 ### Added
 - handle errors in helper functions
