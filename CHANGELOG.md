@@ -1,5 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
+## [0.3.5] - 2015-03-22
+### Changed
+- set type functionality
+
+## [0.3.4] - 2015-03-22
+### Changed
+- rigger dep
 
 ## [0.3.2] - 2015-03-21
 ### Added
@@ -39,4 +46,5 @@ All notable changes to this project will be documented in this file.
 [0.2.2]: https://github.com/denar90/marionette-cli/compare/v0.2.1...v0.2.2
 [0.3.0]: https://github.com/denar90/marionette-cli/compare/v0.2.2...v0.3.0
 [0.3.1]: https://github.com/denar90/marionette-cli/compare/v0.3.0...v0.3.1
-[0.3.2]: https://github.com/denar90/marionette-cli/compare/v0.3.1...v0.3.2
+[0.3.4]: https://github.com/denar90/marionette-cli/compare/v0.3.2...v0.3.4
+[0.3.5]: https://github.com/denar90/marionette-cli/compare/v0.3.4...v0.3.5
