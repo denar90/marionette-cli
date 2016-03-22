@@ -1,5 +1,9 @@
 # Change Log
 All notable changes to this project will be documented in this file.
+## [0.3.6] - 2015-03-22
+### Changed
+- fix path for set type functionality
+
 ## [0.3.5] - 2015-03-22
 ### Changed
 - set type functionality
@@ -48,3 +52,4 @@ All notable changes to this project will be documented in this file.
 [0.3.1]: https://github.com/denar90/marionette-cli/compare/v0.3.0...v0.3.1
 [0.3.4]: https://github.com/denar90/marionette-cli/compare/v0.3.2...v0.3.4
 [0.3.5]: https://github.com/denar90/marionette-cli/compare/v0.3.4...v0.3.5
+[0.3.6]: https://github.com/denar90/marionette-cli/compare/v0.3.5...v0.3.6
