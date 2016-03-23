@@ -3,7 +3,7 @@
 
 ##ES6
 
-- Backbone.Model
+###Backbone.Model
 
 ```javascript
 export default Backbone.Model.extend({
@@ -12,7 +12,7 @@ export default Backbone.Model.extend({
 });
 ```
 
-- Backbone.Collection
+###Backbone.Collection
 
 ```javascript
 import Model from './model';
@@ -26,7 +26,7 @@ export default Backbone.Collection.extend({
 });
 ```
 
-- Backbone.Marionette.Router
+###Backbone.Marionette.Router
 
 ```javascript
 export default Marionette.AppRouter.extend({
@@ -36,7 +36,7 @@ export default Marionette.AppRouter.extend({
 });
 ```
 
-- Backbone.Marionette.Object
+###Backbone.Marionette.Object
 
 ```javascript
 export default Marionette.Object.extend({
@@ -46,7 +46,7 @@ export default Marionette.Object.extend({
 });
 ```
 
-- Backbone.Marionette.ItemView
+###Backbone.Marionette.ItemView
 
 ```javascript
 export default Marionette.ItemView.extend({
@@ -55,7 +55,7 @@ export default Marionette.ItemView.extend({
 });
 ```
 
-- Backbone.Marionette.CollectionView
+###Backbone.Marionette.CollectionView
 
 ```javascript
 import ItemView from './itemView';
@@ -69,7 +69,7 @@ export default Marionette.CollectionView.extend({
 });
 ```
 
-- Backbone.Marionette.CompositeView
+###Backbone.Marionette.CompositeView
 
 ```javascript
 import ItemView from './itemView';
@@ -83,7 +83,7 @@ export default Marionette.CompositeView.extend({
 });
 ```
 
-- Backbone.Marionette.LayoutView
+###Backbone.Marionette.LayoutView
 
 ```javascript
 export default Marionette.LayoutView.extend({
@@ -92,7 +92,7 @@ export default Marionette.LayoutView.extend({
 });
 ```
 
-- Backbone.Marionette.Behavior
+###Backbone.Marionette.Behavior
 
 ```javascript
 export default Marionette.Behavior.extend({
@@ -119,7 +119,7 @@ export default Marionette.Behavior.extend({
 
 ##CommonJS
 
-- Backbone.Model
+###Backbone.Model
 
 ```javascript
 "use strict";
@@ -130,7 +130,7 @@ var Model = Backbone.Model.extend({
 module.exports = Model;
 ```
 
-- Backbone.Collection
+###Backbone.Collection
 
 ```javascript
 "use strict";
@@ -140,7 +140,7 @@ var Collection = Backbone.Collection.extend({
 module.exports = Collection;
 ```
 
-- Backbone.Marionette.Router
+###Backbone.Marionette.Router
 
 ```javascript
 "use strict";
@@ -152,7 +152,7 @@ var Router = Marionette.AppRouter.extend({
 module.exports = Router;
 ```
 
-- Backbone.Marionette.Object
+###Backbone.Marionette.Object
 
 ```javascript
 "use strict";
@@ -167,7 +167,7 @@ var Object = Marionette.Object.extend({
 module.exports = Object;
 ```
 
-- Backbone.Marionette.ItemView
+###Backbone.Marionette.ItemView
 
 ```javascript
 "use strict";
@@ -178,7 +178,7 @@ var ItemView = Marionette.ItemView.extend({
 module.exports = ItemView;
 ```
 
-- Backbone.Marionette.CollectionView
+###Backbone.Marionette.CollectionView
 
 ```javascript
 "use strict";
@@ -188,7 +188,7 @@ var CollectionView = Marionette.CollectionView.extend({
 module.exports = CollectionView;
 ```
 
-- Backbone.Marionette.CompositeView
+###Backbone.Marionette.CompositeView
 
 ```javascript
 "use strict";
@@ -198,7 +198,7 @@ var CompositeView = Marionette.CompositeView.extend({
 module.exports = CompositeView;
 ```
 
-- Backbone.Marionette.LayoutView
+###Backbone.Marionette.LayoutView
 
 ```javascript
 "use strict";
@@ -209,7 +209,7 @@ var LayoutView = Marionette.LayoutView.extend({
 module.exports = LayoutView;
 ```
 
-- Backbone.Marionette.Behavior
+###Backbone.Marionette.Behavior
 
 ```javascript
 "use strict";
@@ -238,10 +238,10 @@ module.exports = Behavior;
 
 ##RequireJS
 
-- Backbone.Model
+##Backbone.Model
 
 ```javascript
-define('model', ['backbone'], function(Backbone) {
+define(['backbone'], function(Backbone) {
 	"use strict";
     var Model = Backbone.Model.extend({
     	//stuff
@@ -252,10 +252,10 @@ define('model', ['backbone'], function(Backbone) {
 });
 ```
 
-- Backbone.Collection
+###Backbone.Collection
 
 ```javascript
-define('collection', ['backbone'], function(Backbone) {
+define(['backbone'], function(Backbone) {
 	"use strict";
     var Collection = Backbone.Collection.extend({
     	model: Backbone.Model.extend()
@@ -265,10 +265,10 @@ define('collection', ['backbone'], function(Backbone) {
 });
 ```
 
-- Backbone.Marionette.Router
+###Backbone.Marionette.Router
 
 ```javascript
-define('router',['backbone.marionette'], function(Marionette) {
+define(['marionette'], function(Marionette) {
 	"use strict";
     var Router = Marionette.AppRouter.extend({
     	appRoutes: {
@@ -280,10 +280,10 @@ define('router',['backbone.marionette'], function(Marionette) {
 });
 ```
 
-- Backbone.Marionette.Object
+###Backbone.Marionette.Object
 
 ```javascript
-define('object', ['marionette'], function(Marionette) {
+define(['marionette'], function(Marionette) {
 	"use strict";
     var Object = Marionette.Object.extend({
     	initialize: function(options) {
@@ -298,10 +298,10 @@ define('object', ['marionette'], function(Marionette) {
 });
 ```
 
-- Backbone.Marionette.ItemView
+###Backbone.Marionette.ItemView
 
 ```javascript
-define('itemView', ['marionette'], function(Marionette) {
+define(['marionette'], function(Marionette) {
 	"use strict";
     var ItemView = Marionette.ItemView.extend({
     	//stuff
@@ -312,10 +312,10 @@ define('itemView', ['marionette'], function(Marionette) {
 });
 ```
 
-- Backbone.Marionette.CollectionView
+###Backbone.Marionette.CollectionView
 
 ```javascript
-define('collectionView', ['marionette'], function(Marionette) {
+define(['marionette'], function(Marionette) {
 	"use strict";
     var CollectionView = Marionette.CollectionView.extend({
     	childView: Marionette.ItemView.extend({})
@@ -325,10 +325,10 @@ define('collectionView', ['marionette'], function(Marionette) {
 });
 ```
 
-- Backbone.Marionette.CompositeView
+###Backbone.Marionette.CompositeView
 
 ```javascript
-define('collectionView', ['marionette'], function(Marionette) {
+define(['marionette'], function(Marionette) {
 	"use strict";
     var CompositeView = Marionette.CompositeView.extend({
     	childView: Marionette.ItemView.extend({})
@@ -338,10 +338,10 @@ define('collectionView', ['marionette'], function(Marionette) {
 });
 ```
 
-- Backbone.Marionette.LayoutView
+###Backbone.Marionette.LayoutView
 
 ```javascript
-define('layout', ['marionette'], function (Marionette) {
+define(['marionette'], function (Marionette) {
 	"use strict";
     var LayoutView = Marionette.LayoutView.extend({
     	//stuff
@@ -352,10 +352,10 @@ define('layout', ['marionette'], function (Marionette) {
 });
 ```
 
-- Backbone.Marionette.Behavior
+###Backbone.Marionette.Behavior
 
 ```javascript
-define('behavior', ['marionette'], function (Marionette) {
+define(['marionette'], function (Marionette) {
 	"use strict";
     var Behavior = Marionette.Behavior.extend({
     	// You can set default options
