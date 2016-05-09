@@ -1,29 +1,5 @@
 {
     "moduleType": "es6",
-    "moduleTypes": [
-        "rjs",
-        "cjs",
-        "es6"
-    ],
-    "apps": {
-        "rjs": "https://github.com/davidsulc/structuring-backbone-with-requirejs-and-marionette",
-        "cjs": "https://github.com/samccone/marionette-browserify",
-        "es6": "https://github.com/thejameskyle/marionette-wires"
-    },
-    "aliases": {
-        "n": "new",
-        "s": "set",
-        "g": "generate"
-    },
-    "generateOptions": [
-        "layout",
-        "collection",
-        "model",
-        "router",
-        "object",
-        "itemView",
-        "behavior",
-        "compositeView",
-        "collectionView"
-    ]
+    "projectFolder": "app/components",
+    "builder": "brunch"
 }

@@ -1,5 +1,9 @@
 # Change Log
 All notable changes to this project will be documented in this file.
+## [1.0.1] - 2015-03-23
+### Changed
+- RequireJS templates. Removed modules name
+
 ## [0.3.7] - 2015-03-23
 ### Changed
 - RequireJS templates. Removed modules name
@@ -58,3 +62,4 @@ All notable changes to this project will be documented in this file.
 [0.3.5]: https://github.com/denar90/marionette-cli/compare/v0.3.4...v0.3.5
 [0.3.6]: https://github.com/denar90/marionette-cli/compare/v0.3.5...v0.3.6
 [0.3.7]: https://github.com/denar90/marionette-cli/compare/v0.3.6...v0.3.7
+[1.0.1]: https://github.com/denar90/marionette-cli/compare/v0.3.7...v1.0.1

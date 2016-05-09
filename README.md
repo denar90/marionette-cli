@@ -1,6 +1,7 @@
 #Marionette CLI
 
-Marionette CLI is the command line utility that provides RequireJS/CommonJS/ES6 app structure.
+Marionette CLI is the command line utility that provides RequireJS/CommonJS/ES6 app structure, file generating, build process and more.
+I was inspired by [discussion](https://github.com/marionettejs/backbone.marionette/issues/1489)
 
 ##Install
 
@@ -12,14 +13,25 @@ Run `npm install -g marionette-cli` or add dependency in your `package.json` fil
 * Support different module types (RequireJS, CommonJS, ES6)
 
 ##Commands
-###Set
+### Apply
 ```
-set [options] <type>  Change module type. Short - s
-Usage: set [options] <type>
+apply Apply configuration for current project by adding it to your 
+project `package.json` file. Short - a
+Usage: a
 ```
 
-Example: `mt set rjs` <br />
-Example: `mt s rjs`
+Example: `mt apply` <br />
+Example: `mt a`
+
+##Commands
+###Set
+```
+set <type> [value]  Chnage value for config property. Short - s
+Usage: set <type> [value] <type>
+```
+
+Example: `mt set moduleType rjs` <br />
+Example: `mt s moduleType rjs`
 
 ###New
 ```
@@ -29,9 +41,37 @@ Usage: new [options]
 
 Example: `mt new` <br />
 Example: `mt n` <br />
-Example: `mt n folderName` - will genarate app in `folderName` folder<br />
+Example: `mt n folderName` - will generate simple application in `folderName` folder<br />
 
-Command copying best practices (most stared examples of applications) from github.
+###Generate
+```
+Usage: generate [options] [folder]
+Generate files for marionette. Short - g
+```
+
+Options:
+```
+    -l --layout [name]       Layout
+    -c --collection [name]   Collection
+    -m --model [name]        Model
+    -r --router [name]       Router
+    -o --object [name]       Object or controller
+    -v --itemView [name]     Item view
+    --collectionView [name]  Collection view
+    --compositeView [name]   Composite view
+```
+
+Example: `mt generate -l` - will create marionette layout file `layout.js` <br />
+Example: `mt g -l` - the same as above
+
+Example: `mt generate -l myName` - will create marionette layout file `myName.js` <br />
+Example: `mt g -l` - the same as above
+
+Example: `mt generate -l myName myFolder` - will create marionette layout file `myName.js` in folder `myFolder` <br />
+Example: `mt g -l myName myFolder` - the same as above
+
+> Notice: If you want to generate file in special folder, AlWAYS pass filename
+e.g. `mt g -l myName myFolder`
 
 ####Generated files content
 
@@ -67,38 +107,6 @@ define(['marionette'], function (Marionette) {
 });
 ```
 [more](examples.md#requirejs)<br/>
-
-####Projects:
-* [RequireJS](https://github.com/davidsulc/structuring-backbone-with-requirejs-and-marionette) example from David Sulc
-* [CommonJS](https://github.com/samccone/marionette-browserify) example from Sam Saccone
-* [ES6](https://github.com/thejameskyle/marionette-wires) example from James Kyle
-
-###Generate
-```
-Usage: generate [options] [folder]
-Generate files for marionette. Short - g
-```
-
-Options:
-```
-    -l --layout [name]       Layout
-    -c --collection [name]   Collection
-    -m --model [name]        Model
-    -r --router [name]       Router
-    -o --object [name]       Object or controller
-    -v --itemView [name]     Item view
-    --collectionView [name]  Collection view
-    --compositeView [name]   Composite view
-```
-
-Example: `mt generate -l` - will create marionette layout file `layout.js` <br />
-Example: `mt g -l` - the same as above
-
-Example: `mt generate -l myName` - will create marionette layout file `myName.js` <br />
-Example: `mt g -l` - the same as above
-
-Example: `mt generate -l myName myFolder` - will create marionette layout file `myName.js` in folder `myFolder` <br />
-Example: `mt g -l myName myFolder` - the same as above
 
 ###Using Atom as your IDE?
 Get lasy and use [MarionetteJS CLI package for atom](https://atom.io/packages/atom-marionettejs-cli)
