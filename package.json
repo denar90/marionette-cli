@@ -28,6 +28,6 @@
 		"fs-extra": "~0.26.2",
 		"rigger": "git://github.com/denar90/rigger#master",
 		"mkdirp": "~0.5.1",
-		"nodegit": "1.5.3"
+		"nodegit": "^0.13.0"
 	}
 }
