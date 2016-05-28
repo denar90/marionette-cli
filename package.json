@@ -1,33 +1,33 @@
 {
-	"name": "marionette-cli",
-	"version": "0.3.7",
-	"description": "CLI for marionette.js",
-	"author": "denar90",
-	"directory": "marionette-cli",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/denar90/marionette-cli.git"
-	},
-	"keywords": [
-		"backbone",
-		"marionette",
-		"cli",
-		"es6",
-		"requirejs",
-		"javacript",
-		"front-end",
-		"web",
-		"development"
-	],
-	"license": "MIT",
-	"bin": {
-		"mt": "./bin/mt.js"
-	},
-	"dependencies": {
-		"commander": "~2.8.1",
-		"fs-extra": "~0.26.2",
-		"rigger": "git://github.com/denar90/rigger#master",
-		"mkdirp": "~0.5.1",
-		"nodegit": "^0.13.0"
-	}
+  "name": "marionette-cli",
+  "version": "0.3.8",
+  "description": "CLI for marionette.js",
+  "author": "denar90",
+  "directory": "marionette-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denar90/marionette-cli.git"
+  },
+  "keywords": [
+    "backbone",
+    "marionette",
+    "cli",
+    "es6",
+    "requirejs",
+    "javacript",
+    "front-end",
+    "web",
+    "development"
+  ],
+  "license": "MIT",
+  "bin": {
+    "mt": "./bin/mt.js"
+  },
+  "dependencies": {
+    "commander": "~2.8.1",
+    "fs-extra": "~0.26.2",
+    "rigger": "git://github.com/denar90/rigger#master",
+    "mkdirp": "~0.5.1",
+    "nodegit": "^0.13.0"
+  }
 }
