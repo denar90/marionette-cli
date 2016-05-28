@@ -26,8 +26,8 @@
   "dependencies": {
     "commander": "~2.8.1",
     "fs-extra": "~0.26.2",
-    "rigger": "git://github.com/denar90/rigger#master",
     "mkdirp": "~0.5.1",
-    "nodegit": "^0.13.0"
+    "rigger": "git://github.com/denar90/rigger#master",
+    "simple-git": "^1.35.0"
   }
 }
